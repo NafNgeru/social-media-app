@@ -1,10 +1,23 @@
-# Getting Started with Create React App
+# Social Media App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple social media page User Interface with minimal functionality. It demonstrates the use of components and the 
+
+You can find this application's live link at [Socail Media App](https://social-media-app-1aaz.vercel.app/).
+
+## App Functionality
+
+The application demonstrates the use of components and their corresponding CSS. 
+Within it, the App component is a parent to the Home component, which is a parent to the Post, ProfileCard, SuggestedUser, Navbar, and Footer components. 
+
+The home uses grid-template-column division to separate the Post, ProfileCard, and SuggestedUser components to create a social media user interface. 
+
+## Contacts
+
+In case of any challenges, reach out to me on [Github](https://github.com/NafNgeru/) or [Email](naftalykamonjo@student.moringaschool.com).
 
 ## Available Scripts
 
-In the project directory, you can run:
+To access the project, clone it from the SSH Github link: git@github.com:NafNgeru/social-media-app.git. In the project directory, you can run:
 
 ### `npm start`
 
