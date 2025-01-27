@@ -1,0 +1,43 @@
+.container{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+    padding: 0.5rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left > h3{
+    font-size: 30px;
+    color:#555;
+}
+
+.centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 20px;
+}
+
+.centre > input{
+    border: none;
+    outline: none;
+}
+
+.profileUserImg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
